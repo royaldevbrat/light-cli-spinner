@@ -1,0 +1,36 @@
+{
+  "name": "light-cli-spinner",
+  "version": "1.0.0",
+  "description": "light-cli-spinner",
+  "keywords": [
+    "spinner",
+    "light",
+    "cli",
+    "no-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royaldevbrat/light-cli-spinner.git"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.0",
+    "jest": "^26.0.0",
+    "ts-jest": "^26.0.0",
+    "uglify-js": "^3.6.0"
+  },
+  "jest": {
+    "testTimeout": 1000000
+  },
+  "dependencies": {},
+  "author": "Devbrat Singh",
+  "license": "MIT"
+}

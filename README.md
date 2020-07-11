@@ -19,7 +19,7 @@ const Spinner = require('light-cli-spinner').Spinner;
 
 const spin = new Spinner({
   text: 'Please wait...',
-  spinners: '|/-\\'
+  spinners: ['⠋', '⠙', '⠹', '⠼', '⠴', '⠦', '⠧', '⠏']
 });
 spin.start();
 
@@ -33,7 +33,7 @@ spin.stop();
 ```
 const obj = new Spinner({
   text: 'Please wait...',
-  spinners: '|/-\\'
+  spinners: ['⠋', '⠙', '⠹', '⠼', '⠴', '⠦', '⠧', '⠏']
 });
 ```
 

@@ -2,9 +2,11 @@ class Spinner {
     constructor(config) {
         this.index = 0;
         const { spinners, text, timeout } = config || {};
-        this.spinners = spinners.split('') || ['⠋', '⠙', '⠹', '⠼', '⠴', '⠦', '⠧', '⠏'];
+        this.spinners = spinners || ['⠋', '⠙', '⠹', '⠼', '⠴', '⠦', '⠧', '⠏'];
         this.timeout = timeout || 100;
         this.text = text || '';
+        this.message = '';
+        this.timeHandler = null;
     }
     start() {
         this.index = 0;
